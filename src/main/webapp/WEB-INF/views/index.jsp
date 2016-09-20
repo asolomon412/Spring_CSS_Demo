@@ -1,9 +1,9 @@
-<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
-<%@ page session="false" %>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
+<%@ page session="false"%>
 <html>
 <head>
 
-<title>glsl-dissolve</title>
+<title>CSS Demo</title>
 
 
 
@@ -18,9 +18,12 @@
 <body>
 
 	<div class="p-contents-summary">
-		<h1 class="p-contents-summary__head"> Antonella Solomon </h1>
+		<h1 class="p-contents-summary__head">
+			<a href="dbtest">Database Test</a>
+		</h1>
 		<p class="p-contents-summary__text">it's dissolve effects for the
 			2D cross fade by glsl.</p>
+
 		<p class="p-contents-summary__link-source">
 			<a href="https://github.com/ykob/glsl-dissolve">view source.</a>
 		</p>
