@@ -9,5 +9,6 @@
 <body>
 <h2>Database Testing Results Verified!</h2>
 ${pageData}
+<p><a href = "home">Return Home</a></p>
 </body>
 </html>

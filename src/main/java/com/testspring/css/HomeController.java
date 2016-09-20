@@ -16,14 +16,14 @@ public class HomeController {
 	/**
 	 * Simply selects the home view to render by returning its name.
 	 */
-	@RequestMapping(value = "/", method = RequestMethod.GET)
+	@RequestMapping(value = { "/", "home" }, method = RequestMethod.GET)
 
 	public String index() {
 
 		return "index";
 	}
 
-	//added mapping for database testing
+	// added mapping for database testing
 	@RequestMapping(value = "dbtest", method = RequestMethod.GET)
 
 	public String dbTest(Model model) throws ClassNotFoundException, SQLException {
@@ -56,7 +56,7 @@ public class HomeController {
 		String name = rs.getString("studentName");
 
 		// console print used or testing purposes only
-		//System.out.println(name);
+		// System.out.println(name);
 		// 7.
 		st.close();
 		con.close();
