@@ -18,7 +18,7 @@
 <body>
 
 	<div class="p-contents-summary">
-		<h1 class="p-contents-summary__head">glsl-dissolve</h1>
+		<h1 class="p-contents-summary__head"> Antonella Solomon </h1>
 		<p class="p-contents-summary__text">it's dissolve effects for the
 			2D cross fade by glsl.</p>
 		<p class="p-contents-summary__link-source">
